@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 416" width="960" height="416" role="img">
+<rect width="960" height="416" rx="16" fill="#ffffff"/>
+<text x="40" y="70" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="34" font-weight="700" fill="#5F5F5F">RS-485 device</text>
+<text x="920" y="70" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="34" font-weight="700" fill="#5F5F5F" text-anchor="end">Edge 2 RS-485</text>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#06B6DB"/></marker></defs>
+<rect x="40" y="90" width="290" height="276" rx="14" fill="none" stroke="#5F5F5F" stroke-width="2.4"/>
+<rect x="580" y="90" width="340" height="276" rx="14" fill="none" stroke="#5F5F5F" stroke-width="2.4"/>
+<text x="70" y="148" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="36" font-weight="700" fill="#5F5F5F">A (D+)</text>
+<circle cx="296" cy="136" r="10" fill="#06B6DB"/>
+<text x="70" y="240" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="36" font-weight="700" fill="#5F5F5F">B (D−)</text>
+<circle cx="296" cy="228" r="10" fill="#06B6DB"/>
+<text x="70" y="332" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="36" font-weight="700" fill="#5F5F5F">GND</text>
+<circle cx="296" cy="320" r="10" fill="#06B6DB"/>
+<circle cx="614" cy="136" r="10" fill="#06B6DB"/>
+<text x="644" y="148" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="36" font-weight="700" fill="#5F5F5F">485A</text>
+<text x="896" y="147" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="28" fill="#5F5F5F" text-anchor="end">Pin 3</text>
+<circle cx="614" cy="228" r="10" fill="#06B6DB"/>
+<text x="644" y="240" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="36" font-weight="700" fill="#5F5F5F">485B</text>
+<text x="896" y="239" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="28" fill="#5F5F5F" text-anchor="end">Pin 2</text>
+<circle cx="614" cy="320" r="10" fill="#06B6DB"/>
+<text x="644" y="332" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="36" font-weight="700" fill="#5F5F5F">GND</text>
+<text x="896" y="331" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="28" fill="#5F5F5F" text-anchor="end">Pin 1</text>
+<path d="M309,136 C455.0,136 455.0,136 597,136" fill="none" stroke="#06B6DB" stroke-width="2.4"/>
+<path d="M309,228 C455.0,228 455.0,228 597,228" fill="none" stroke="#06B6DB" stroke-width="2.4"/>
+<path d="M309,320 C455.0,320 455.0,320 597,320" fill="none" stroke="#06B6DB" stroke-width="2.4"/>
+</svg>
