@@ -1,0 +1,42 @@
+{
+  "logo.alt": {
+    "message": "Mixtile",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  },
+  "item.label.Products": {
+    "message": "Products",
+    "description": "Navbar item with label Products"
+  },
+  "item.label.Mixtile Blade 3": {
+    "message": "Mixtile Blade 3",
+    "description": "Navbar item with label Mixtile Blade 3"
+  },
+  "item.label.Mixtile Cluster Box": {
+    "message": "Mixtile Cluster Box",
+    "description": "Navbar item with label Mixtile Cluster Box"
+  },
+  "item.label.Mixtile Core 3588E": {
+    "message": "Mixtile Core 3588E",
+    "description": "Navbar item with label Mixtile Core 3588E"
+  },
+  "item.label.Mixtile Core 3568": {
+    "message": "Mixtile Core 3568",
+    "description": "Navbar item with label Mixtile Core 3568"
+  },
+  "item.label.Mixtile Edge 2": {
+    "message": "Mixtile Edge 2",
+    "description": "Navbar item with label Mixtile Edge 2"
+  },
+  "item.label.Tools": {
+    "message": "Tools",
+    "description": "Navbar item with label Tools"
+  },
+  "item.label.AI": {
+    "message": "AI",
+    "description": "Navbar item with label AI"
+  }
+}

@@ -1,0 +1,14 @@
+/* Mirrors the theme's DocCardList item spacing. */
+.productCardListItem {
+  margin-bottom: 2rem;
+}
+
+.productCardListItem > * {
+  height: 100%;
+}
+
+.productIcon {
+  display: block;
+  width: 48px;
+  height: 48px;
+}

@@ -1,0 +1,10 @@
+{
+  "copyright": {
+    "message": "Copyright © 2026 Mixtile. All rights reserved.",
+    "description": "The footer copyright"
+  },
+  "link.item.label.License": {
+    "message": "License",
+    "description": "The label of footer link with label=License linking to /license/"
+  }
+}

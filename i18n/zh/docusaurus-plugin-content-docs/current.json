@@ -1,0 +1,86 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.blade3.category.Getting Started": {
+    "message": "Getting Started",
+    "description": "The label for category 'Getting Started' in sidebar 'blade3'"
+  },
+  "sidebar.blade3.category.Hardware": {
+    "message": "Hardware",
+    "description": "The label for category 'Hardware' in sidebar 'blade3'"
+  },
+  "sidebar.blade3.category.Interfaces": {
+    "message": "Interfaces",
+    "description": "The label for category 'Interfaces' in sidebar 'blade3'"
+  },
+  "sidebar.blade3.category.Development": {
+    "message": "Development",
+    "description": "The label for category 'Development' in sidebar 'blade3'"
+  },
+  "sidebar.blade3.category.Talos Linux": {
+    "message": "Talos Linux",
+    "description": "The label for category 'Talos Linux' in sidebar 'blade3'"
+  },
+  "sidebar.edge2.category.Getting Started": {
+    "message": "Getting Started",
+    "description": "The label for category 'Getting Started' in sidebar 'edge2'"
+  },
+  "sidebar.edge2.category.Hardware": {
+    "message": "Hardware",
+    "description": "The label for category 'Hardware' in sidebar 'edge2'"
+  },
+  "sidebar.edge2.category.Interfaces": {
+    "message": "Interfaces",
+    "description": "The label for category 'Interfaces' in sidebar 'edge2'"
+  },
+  "sidebar.edge2.category.Software": {
+    "message": "Software",
+    "description": "The label for category 'Software' in sidebar 'edge2'"
+  },
+  "sidebar.edge2.category.Home Assistant": {
+    "message": "Home Assistant",
+    "description": "The label for category 'Home Assistant' in sidebar 'edge2'"
+  },
+  "sidebar.edge2.category.Development": {
+    "message": "Development",
+    "description": "The label for category 'Development' in sidebar 'edge2'"
+  },
+  "sidebar.edge2.category.Accessories": {
+    "message": "Accessories",
+    "description": "The label for category 'Accessories' in sidebar 'edge2'"
+  },
+  "sidebar.edge2.category.2-in-1 Zigbee & Z-Wave Module": {
+    "message": "2-in-1 Zigbee & Z-Wave Module",
+    "description": "The label for category '2-in-1 Zigbee & Z-Wave Module' in sidebar 'edge2'"
+  },
+  "sidebar.clusterbox.category.Getting Started": {
+    "message": "Getting Started",
+    "description": "The label for category 'Getting Started' in sidebar 'clusterbox'"
+  },
+  "sidebar.clusterbox.category.Software": {
+    "message": "Software",
+    "description": "The label for category 'Software' in sidebar 'clusterbox'"
+  },
+  "sidebar.core3588e.category.Getting Started": {
+    "message": "Getting Started",
+    "description": "The label for category 'Getting Started' in sidebar 'core3588e'"
+  },
+  "sidebar.core3588e.category.Hardware": {
+    "message": "Hardware",
+    "description": "The label for category 'Hardware' in sidebar 'core3588e'"
+  },
+  "sidebar.core3588e.category.Interfaces": {
+    "message": "Interfaces",
+    "description": "The label for category 'Interfaces' in sidebar 'core3588e'"
+  },
+  "sidebar.core3588e.category.Development": {
+    "message": "Development",
+    "description": "The label for category 'Development' in sidebar 'core3588e'"
+  },
+  "sidebar.core3568.category.Hardware": {
+    "message": "Hardware",
+    "description": "The label for category 'Hardware' in sidebar 'core3568'"
+  }
+}
