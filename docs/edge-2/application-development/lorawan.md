@@ -122,7 +122,7 @@ Mixtile provides a script to help you easily set up Chirpstack and the LoRaWAN g
 
 6.  Wait about 10 minutes for the script to complete. When it’s done, it returns the LoRaWAN gateway ID (`0016c001f160f372` in this example) and the `Script completed successfully` message as follows:
 
-![](/img/docs/configuring-lorawan-gateways-on-mixtile-edge-2-kit-running-linux/9004b5aa9211.webp)
+![Terminal output when the setup script finishes, showing the LoRaWAN gateway ID and the message Script completed successfully](/img/docs/configuring-lorawan-gateways-on-mixtile-edge-2-kit-running-linux/9004b5aa9211.webp)
 
     > Copy this ID somewhere convenient, as it’s needed in later steps.
 

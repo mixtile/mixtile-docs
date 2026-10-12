@@ -1,6 +1,7 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import excludeUnpublishedAssets from './plugins/exclude-unpublished-assets';
 
 // Pages that moved during the 2026-09 restructure. Left is the path that
 // exists today, right are the retired paths that must keep resolving.
@@ -166,6 +167,7 @@ const config: Config = {
         redirects: moved.map(([to, from]) => ({to, from})),
       },
     ],
+    excludeUnpublishedAssets,
   ],
 
   themes: [

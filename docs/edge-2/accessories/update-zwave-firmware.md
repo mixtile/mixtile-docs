@@ -30,4 +30,4 @@ This page describes how to update the Z-Wave firmware of the module in Home Assi
 
     If you see the page below, your Z-Wave firmware has been updated successfully. It will become unavailable for about 5 minutes and then restart automatically. You can ignore the Z-Wave JS errors reported during this period.
 
-![](/img/docs/updating-z-wave-firmware/b4ab14dab572.webp)
+![The Update device firmware dialog reporting a successful firmware update on Node 1](/img/docs/updating-z-wave-firmware/b4ab14dab572.webp)

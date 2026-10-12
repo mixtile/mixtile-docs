@@ -1,0 +1,39 @@
+/* Kept from the theme's own Img styles: the width/height attributes carry the
+   aspect ratio, CSS decides the rendered width. */
+.img {
+  height: auto;
+}
+
+.zoomable {
+  cursor: zoom-in;
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  /* Above the navbar, which sits at 200. */
+  z-index: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  background: rgba(0, 0, 0, 0.85);
+  cursor: zoom-out;
+}
+
+.enlarged {
+  max-width: 100%;
+  max-height: 100%;
+  /* Natural size while it fits, so figure detail is never scaled away. */
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  background: var(--ifm-background-surface-color);
+  box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 576px) {
+  .overlay {
+    padding: 0.5rem;
+  }
+}

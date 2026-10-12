@@ -18,12 +18,12 @@ You can watch the LED indicator for the reset process:
 
 - Flashes extremely frequently: resetting to factory settings
 
-  ![](/img/docs/resetting-to-factory-settings/43a5f4d3d32b.webp)
+  ![The ON/OFF button on the Cluster Box front panel, with its blue LED flashing rapidly](/img/docs/resetting-to-factory-settings/43a5f4d3d32b.webp)
 
 - Flashes frequently: restarting
 
-  ![](/img/docs/resetting-to-factory-settings/16d92805b0f3.webp)
+  ![The ON/OFF button on the Cluster Box front panel, with its blue LED blinking slowly](/img/docs/resetting-to-factory-settings/16d92805b0f3.webp)
 
 - Stays on: started normally
 
-  ![](/img/docs/resetting-to-factory-settings/f46a626abae1.webp)
+  ![The ON/OFF button on the Cluster Box front panel, with its blue LED lit continuously](/img/docs/resetting-to-factory-settings/f46a626abae1.webp)
