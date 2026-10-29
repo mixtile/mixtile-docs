@@ -40,7 +40,7 @@ const moved: [string, string[]][] = [
   ['/edge-2/hardware-usage/m2-mini-pcie/', [
     '/edge-2/interfaces/m2-minipcie/', '/edge-2/getting-started/interface-usage/m2-minipcie/',
     '/edge-2/software/cellular/', '/edge-2/mixtile-os/cellular/',
-    '/edge-2/accessories/cellular-modules/', '/edge-2/accessories/lora-modules/', '/edge-2/accessories/nvme-ssd/']],
+    '/edge-2/accessories/lora-modules/', '/edge-2/accessories/nvme-ssd/']],
   ['/edge-2/application-development/', [
     '/edge-2/app-development/', '/edge-2/software/ai/', '/edge-2/app-development/ai/',
     '/edge-2/software/ai/hailo/', '/edge-2/app-development/ai/hailo-install/',
@@ -59,15 +59,16 @@ const moved: [string, string[]][] = [
     '/edge-2/software/ubuntu-container/', '/edge-2/mixtile-os/ubuntu-container/']],
   ['/edge-2/other-operating-systems/home-assistant-os/', [
     '/edge-2/software/home-assistant/', '/edge-2/app-development/home-assistant/']],
-  ['/edge-2/accessories/', ['/edge-2/accessories/zigbee-zwave-module/']],
-  ['/edge-2/accessories/home-assistant-setup/', [
-    '/edge-2/software/home-assistant/zigbee-zwave/', '/edge-2/app-development/home-assistant/zigbee-zwave/']],
-  ['/edge-2/accessories/addons/', [
-    '/edge-2/software/home-assistant/addons/', '/edge-2/app-development/home-assistant/addons/']],
-  ['/edge-2/accessories/flash-firmware/', ['/edge-2/accessories/zigbee-zwave-module/flash-firmware/']],
-  ['/edge-2/accessories/update-zwave-firmware/', ['/edge-2/accessories/zigbee-zwave-module/update-zwave-firmware/']],
-  ['/edge-2/accessories/region-configurator/', ['/edge-2/accessories/zigbee-zwave-module/region-configurator/']],
-  ['/edge-2/accessories/raspberry-pi/', ['/edge-2/accessories/zigbee-zwave-module/raspberry-pi/']],
+  ['/edge-2/accessories/zigbee-zwave-module/home-assistant-setup/', [
+    '/edge-2/software/home-assistant/zigbee-zwave/', '/edge-2/app-development/home-assistant/zigbee-zwave/',
+    '/edge-2/accessories/home-assistant-setup/']],
+  ['/edge-2/accessories/zigbee-zwave-module/addons/', [
+    '/edge-2/software/home-assistant/addons/', '/edge-2/app-development/home-assistant/addons/',
+    '/edge-2/accessories/addons/']],
+  ['/edge-2/accessories/zigbee-zwave-module/flash-firmware/', ['/edge-2/accessories/flash-firmware/']],
+  ['/edge-2/accessories/zigbee-zwave-module/update-zwave-firmware/', ['/edge-2/accessories/update-zwave-firmware/']],
+  ['/edge-2/accessories/zigbee-zwave-module/region-configurator/', ['/edge-2/accessories/region-configurator/']],
+  ['/edge-2/accessories/zigbee-zwave-module/raspberry-pi/', ['/edge-2/accessories/raspberry-pi/']],
   // Cluster Box
   ['/cluster-box/hardware/', ['/cluster-box/hardware-design/hardware-interface/', '/cluster-box/hardware-design/']],
   ['/cluster-box/software/basic-commands/', ['/cluster-box/mixtile-os/basic-commands/']],

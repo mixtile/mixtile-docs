@@ -75,7 +75,7 @@ _Figure 2. Connector layout, top and bottom sides_
 
 One long edge of the board has the **POWER** USB-C port, two USB 3.0 ports, HDMI, the RS-485 terminal block and Ethernet. The opposite edge has the power button, the power and system LEDs, a third USB 3.0 port, the headphone jack and the microSD slot. The DC 12V jack and the SATA power connector are on one short edge, and the U.2 connector on the other. The bottom side has the M.2 and Mini PCIe sockets with a micro-SIM slot for each, the eDP, MIPI-DSI and MIPI-CSI connectors, the Wi-Fi and Bluetooth module with its two antenna connectors, and the RECOVERY button. For every connector, see [Hardware Information](/edge-2/hardware-usage).
 
-An enclosure with two Wi-Fi antennas is available as the Edge 2 Kit, see [Accessories](/edge-2/accessories#edge-2-kit-enclosure).
+An enclosure with two Wi-Fi antennas is available as the Edge 2 Kit, see [Edge 2 Kit](/edge-2/accessories/edge-2-kit).
 
 ## Key Parameters
 

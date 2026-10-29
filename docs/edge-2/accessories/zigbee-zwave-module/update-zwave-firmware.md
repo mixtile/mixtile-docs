@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Updating Z-Wave Firmware
 
-This page describes how to update the Z-Wave firmware of the module in Home Assistant. Before you start, set up Z-Wave in Home Assistant as described in [Setting Up Zigbee and Z-Wave](/edge-2/accessories/home-assistant-setup).
+This page describes how to update the Z-Wave firmware of the module in Home Assistant. Before you start, set up Z-Wave in Home Assistant as described in [Setting Up Zigbee and Z-Wave](/edge-2/accessories/zigbee-zwave-module/home-assistant-setup).
 
 1.  Download the firmware for your region from the [Z-Wave firmware folder](https://github.com/focalcrest/Mixtile-EDGE2-Firmware/tree/main/Z-wave). If your region is not available, use `ZWave_v1.1.0_EU-OTW.gbl`.
 

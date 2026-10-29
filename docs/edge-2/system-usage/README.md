@@ -68,7 +68,8 @@ This is how Mixtile OS exposes the interfaces of Edge 2. For the connectors them
 | [I²C connector](/edge-2/hardware-usage/other-connectors#i2c) (I2C3) | `/dev/i2c-3` |
 | [ADC connector](/edge-2/hardware-usage/other-connectors#adc) | `in_voltage4_raw` to `in_voltage7_raw` under `/sys/bus/iio/devices/iio:device0/`. A raw value of 1023 corresponds to 1.8 V. |
 | [IR connector](/edge-2/hardware-usage/other-connectors#ir) | IR remote-control receiver for NEC-format remotes; key presses arrive as input events from `fe6e0030.pwm` |
-| [M.2 socket](/edge-2/hardware-usage/m2-mini-pcie) | Both PCIe lanes are used for PCIe. Routing the second lane to USB 3.0 is not offered. |
+| [M.2 socket](/edge-2/hardware-usage/m2-mini-pcie) | Both PCIe lanes are used for PCIe. Routing the second lane to USB 3.0 is not offered. Cellular modules use USB 2.0. |
+| [Mini PCIe socket](/edge-2/hardware-usage/m2-mini-pcie) | USB 2.0. See [Cellular Modules](/edge-2/accessories/cellular-modules). |
 | [CAN](/edge-2/hardware-usage/can) | Not available. The kernel does not include a driver for the RK3568 CAN controller, so no CAN network interface appears. |
 | [eDP, MIPI-DSI, MIPI-CSI](/edge-2/hardware-usage/display-camera) | Not enabled in the device tree. Only the HDMI output is used. To use a panel or camera, add it to the kernel device tree and rebuild the image, see [Building a Mixtile OS Image](/edge-2/low-level-development/build-image). |
 | [U.2](/edge-2/hardware-usage/u2) | SATA, PCIe 2.0 and GMAC0 are not enabled in the device tree |
@@ -77,8 +78,6 @@ This is how Mixtile OS exposes the interfaces of Edge 2. For the connectors them
 | System LED | Blinks in a heartbeat pattern |
 
 To list the devices on the I²C bus, install `i2c-tools` and run `sudo i2cdetect -y 3`. The on-board real-time clock answers at address `0x51`.
-
-Devices connected to these interfaces have not yet been tested with Mixtile OS.
 
 ## Real-Time Clocks
 

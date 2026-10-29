@@ -10,7 +10,7 @@ description: Download Home Assistant OS for Edge 2, write it to the eMMC, and op
 
 Home Assistant OS turns Edge 2 into a dedicated Home Assistant hub. Mixtile builds it for Edge 2 from the stable releases of the official [Home Assistant Operating System](https://github.com/home-assistant/operating-system), with the Edge 2 board support added, and publishes it in the [mixtile-rockchip/mixtile-haos](https://github.com/mixtile-rockchip/mixtile-haos) repository.
 
-With the [Mixtile 2-in-1 Zigbee and Z-Wave module](/edge-2/accessories) in the Mini PCIe socket, Edge 2 can control Zigbee and Z-Wave devices directly.
+With the [Mixtile 2-in-1 Zigbee and Z-Wave module](/edge-2/accessories/zigbee-zwave-module) in the Mini PCIe socket, Edge 2 can control Zigbee and Z-Wave devices directly.
 
 :::warning
 Hardware support has not been fully verified on Edge 2. Test the interfaces you need before you rely on the system.
@@ -46,4 +46,4 @@ When it is ready, the onboarding page appears. Create your Home Assistant accoun
 
 ![The Welcome to Home Assistant onboarding page](/img/docs/using-home-assistant-in-mixtile-edge-2-kit/129eaf473133.webp)
 
-For how to use Home Assistant, see the [Home Assistant documentation](https://www.home-assistant.io/docs/). To set up the Zigbee and Z-Wave module, see [Accessories](/edge-2/accessories).
+For how to use Home Assistant, see the [Home Assistant documentation](https://www.home-assistant.io/docs/). To set up the Zigbee and Z-Wave module, see [Zigbee and Z-Wave Module](/edge-2/accessories/zigbee-zwave-module).

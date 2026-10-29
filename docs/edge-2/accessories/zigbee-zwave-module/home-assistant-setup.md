@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Setting Up Zigbee and Z-Wave
 
-[Mixtile 2-in-1 Zigbee & Z-Wave mPCIe Interface Module](https://www.mixtile.com/store/accessory/mixtile-2-in-1-zigbee-z-wave-mpcie-interface-module/) is designed for Home Assistant users and developers. After installing Home Assistant (see [Home Assistant OS](/edge-2/other-operating-systems/home-assistant-os)), install the module as described in [Accessories](/edge-2/accessories#install-the-module), then configure it in Home Assistant as described below.
+[Mixtile 2-in-1 Zigbee & Z-Wave mPCIe Interface Module](https://www.mixtile.com/store/accessory/mixtile-2-in-1-zigbee-z-wave-mpcie-interface-module/) is designed for Home Assistant users and developers. After installing Home Assistant (see [Home Assistant OS](/edge-2/other-operating-systems/home-assistant-os)), install the module as described in [Zigbee and Z-Wave Module](/edge-2/accessories/zigbee-zwave-module#install-the-module), then configure it in Home Assistant as described below.
 
 ## Setting up Zigbee
 

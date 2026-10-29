@@ -4,7 +4,7 @@ sidebar_position: 5
 
 # Using the Z-Wave Region Configurator
 
-After installing MIXTILE Z-Wave Region Configurator (see [Installing Mixtile Add-ons](/edge-2/accessories/addons)), you can follow this guide to change the region.
+After installing MIXTILE Z-Wave Region Configurator (see [Installing Mixtile Add-ons](/edge-2/accessories/zigbee-zwave-module/addons)), you can follow this guide to change the region.
 
 ## Disabling Z-Wave services and add-ons
 

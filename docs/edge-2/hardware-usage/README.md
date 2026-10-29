@@ -64,4 +64,4 @@ For how Mixtile OS uses the RECOVERY button and the system LED, see [Hardware In
 
 ## Dimensions
 
-The board is 100 x 140 mm. For the Edge 2 Kit enclosure, see [Accessories](/edge-2/accessories#edge-2-kit-enclosure).
+The board is 100 x 140 mm. For the Edge 2 Kit enclosure, see [Edge 2 Kit](/edge-2/accessories/edge-2-kit).

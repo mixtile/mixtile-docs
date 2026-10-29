@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Flashing Zigbee and Thread Firmware
 
-After installing MIXTILE Flasher (see [Installing Mixtile Add-ons](/edge-2/accessories/addons)), you can follow this guide to flash the Zigbee & Thread firmware to support both Zigbee and Thread.
+After installing MIXTILE Flasher (see [Installing Mixtile Add-ons](/edge-2/accessories/zigbee-zwave-module/addons)), you can follow this guide to flash the Zigbee & Thread firmware to support both Zigbee and Thread.
 
 ## Disabling Zigbee Home Automation
 

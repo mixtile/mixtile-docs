@@ -8,7 +8,7 @@ description: The M.2 Key B and Mini PCIe sockets of Edge 2 and their SIM slots, 
 Edge 2 has two module sockets on the bottom side of the board, each with its own micro-SIM slot:
 
 - An **M.2 Key B** socket, for 4G and 5G modems, NVMe SSDs and other PCIe or USB modules
-- A **Mini PCIe** socket, for USB modules such as 4G modems, LoRa concentrators and the [Mixtile Zigbee and Z-Wave module](/edge-2/accessories)
+- A **Mini PCIe** socket, for USB modules such as 4G modems, LoRa concentrators and the [Mixtile Zigbee and Z-Wave module](/edge-2/accessories/zigbee-zwave-module)
 
 ![Bottom side of the Edge 2 board with the M.2 socket, the Mini PCIe socket and their SIM slots labelled](/img/docs/edge-2-board/edge-2-board-bottom-labelled.webp)
 
@@ -84,7 +84,7 @@ The tables list only the pins that are connected. All other pins are not connect
 ## Install a Module
 
 1. Shut down Edge 2 and disconnect the power supply.
-2. Turn the board over. The sockets are on the bottom side. If the board is in the Edge 2 Kit enclosure, remove the bottom cover, see [Edge 2 Kit Enclosure](/edge-2/accessories#edge-2-kit-enclosure).
+2. Turn the board over. The sockets are on the bottom side. If the board is in the Edge 2 Kit enclosure, remove the bottom cover, see [Edge 2 Kit](/edge-2/accessories/edge-2-kit#open-the-enclosure).
 3. If the module uses a SIM card, insert the micro-SIM into the slot for that socket.
 4. Line up the notch in the module's edge with the key in the socket, and insert the module at an angle.
 5. Press the module down flat, and secure it with the screw.
@@ -115,11 +115,4 @@ Log in to the board, see [Connect to Edge 2](/edge-2/getting-started/connect), a
 
 To work, the module also needs a Linux driver and, for many modules, firmware and user-space software in the running system.
 
-## Modules Tested with Earlier Systems
-
-Mixtile tested the following modules on Edge 2 with its earlier Android and Debian 11 images. They have not been tested with Mixtile OS.
-
-| Socket | Module |
-| --- | --- |
-| M.2 | Quectel EM06-A (4G), Quectel RM500Q-AE (5G), Western Digital PC SN520 NVMe SSD |
-| Mini PCIe | Quectel EC25 (4G), RAK5146 LoRa concentrator |
+For the cellular modules Mixtile has tested and how to use them in Mixtile OS, see [Cellular Modules](/edge-2/accessories/cellular-modules).

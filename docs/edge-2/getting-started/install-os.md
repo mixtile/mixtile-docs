@@ -84,7 +84,7 @@ In MaskROM mode the board does not start any system. Instead, it waits for a com
 
 The **MASKROM** button is on the top side of the board, near the buzzer and the coin-cell holder.
 
-Disconnect all power from the board before you continue. If the board is in the Edge 2 Kit enclosure, open its top cover first, see [Edge 2 Kit Enclosure](/edge-2/accessories#edge-2-kit-enclosure).
+Disconnect all power from the board before you continue. If the board is in the Edge 2 Kit enclosure, open its top cover first, see [Edge 2 Kit](/edge-2/accessories/edge-2-kit#open-the-enclosure).
 
 ![Top view of the Edge 2 board with the MASKROM button marked near the upper right corner](/img/docs/edge-2-board/edge-2-maskrom-button.webp)
 

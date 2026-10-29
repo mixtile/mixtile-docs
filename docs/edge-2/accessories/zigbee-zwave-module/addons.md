@@ -52,5 +52,5 @@ Mixtile offers the following two add-ons, Mixtile Flasher and MIXTILE Z-Wave Reg
 
 To use each add-on, visit the pages below as needed：
 
-- MIXTILE Flasher: [Flashing Zigbee & Thread Firmware with MIXTILE Flasher](/edge-2/accessories/flash-firmware)
-- MIXTILE Z-Wave Region Configurator: [Using MIXTILE Z-Wave Region Configurator](/edge-2/accessories/region-configurator)
+- MIXTILE Flasher: [Flashing Zigbee & Thread Firmware with MIXTILE Flasher](/edge-2/accessories/zigbee-zwave-module/flash-firmware)
+- MIXTILE Z-Wave Region Configurator: [Using MIXTILE Z-Wave Region Configurator](/edge-2/accessories/zigbee-zwave-module/region-configurator)

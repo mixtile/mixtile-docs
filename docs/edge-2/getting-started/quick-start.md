@@ -14,7 +14,7 @@ A standard Edge 2 package includes:
 - 1 x Edge 2 board
 - 1 x USB-C to USB-C cable, 1 m
 
-If you have the Edge 2 Kit, with the board in an enclosure and two Wi-Fi antennas, see [Edge 2 Kit Enclosure](/edge-2/accessories#edge-2-kit-enclosure) for its ports and antennas.
+If you have the Edge 2 Kit, with the board in an enclosure and two Wi-Fi antennas, see [Edge 2 Kit](/edge-2/accessories/edge-2-kit) for its ports and antennas.
 
 ## What you need
 
