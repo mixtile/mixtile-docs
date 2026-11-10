@@ -24,3 +24,6 @@ yarn-error.log*
 
 # Local-only history (WordPress export, migration notes); not versioned
 /archive/
+
+# Local preview download archives
+/local-downloads/

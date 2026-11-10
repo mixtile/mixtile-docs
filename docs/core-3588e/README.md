@@ -96,6 +96,10 @@ _Figure 3. Bottom side_
 | Connector | 260-pin SO-DIMM edge connector, Jetson TX2 NX pin assignment |
 | Dimensions | 69.6 x 45 mm |
 
+## Migrating from Jetson Orin Nano
+
+Start with the [migration guide](/core-3588e/application-development/jetson-migration/) to compare platforms, run the Docker demos and review measured results.
+
 ## Documentation
 
 <ChapterCards />

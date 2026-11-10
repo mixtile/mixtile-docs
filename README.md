@@ -22,3 +22,10 @@ npm start          # development server
 npm run build      # production build; broken links and anchors fail the build
 npm run serve      # preview the production build
 ```
+
+## Jetson migration guide
+
+The [Jetson Orin Nano migration guide](docs/core-3588e/application-development/jetson-migration/README.md)
+covers hardware, system software, video processing, models, and application migration to Core3588E.
+Its [Quick Start](docs/core-3588e/application-development/jetson-migration/implementation/quick-start.md)
+provides Docker and Demo SDK downloads from the Mixtile download site.
