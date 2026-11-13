@@ -114,7 +114,7 @@ const moved: [string, string[]][] = [
 
 const config: Config = {
   title: 'Mixtile Documentation',
-  tagline: 'Guides and references for Mixtile single-board computers, system-on-modules and clusters',
+  tagline: 'Guides and references for Mixtile single-board computers, system-on-modules, clusters and operating systems',
   favicon: 'img/favicon.ico',
 
   future: {v4: true},
@@ -203,6 +203,7 @@ const config: Config = {
             {type: 'docSidebar', sidebarId: 'core3568', label: 'Mixtile Core 3568'},
           ],
         },
+        {type: 'docSidebar', sidebarId: 'naos', label: 'NAOS', position: 'left'},
         {href: 'https://github.com/mixtile/mixtile-docs', label: 'GitHub', position: 'right'},
       ],
     },

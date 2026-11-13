@@ -5,6 +5,10 @@ slug: /
 
 # Mixtile Documentation
 
-Guides and references for Mixtile single-board computers, system-on-modules and clusters.
+Guides and references for Mixtile single-board computers, system-on-modules, clusters and operating systems.
 
 <ProductCards />
+
+## Software
+
+<SoftwareCards />

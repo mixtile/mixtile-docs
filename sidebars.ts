@@ -9,6 +9,7 @@ const sidebars: SidebarsConfig = {
   clusterbox: product('cluster-box'),
   core3588e: product('core-3588e'),
   core3568: product('core-3568'),
+  naos: product('naos'),
 };
 
 export default sidebars;
