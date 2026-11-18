@@ -77,6 +77,25 @@ const moved: [string, string[]][] = [
   ['/cluster-box/software/miop-driver-update/', ['/cluster-box/mixtile-os/miop-driver-update/']],
   ['/cluster-box/software/', ['/cluster-box/mixtile-os/']],
   // Core 3588E
+  // Jetson migration guide moved out of the AI-only category.
+  ['/core-3588e/application-development/jetson-migration/core3588e-platform/', ['/core-3588e/application-development/ai/jetson-migration/core3588e-platform/']],
+  ['/core-3588e/application-development/jetson-migration/conclusion/', ['/core-3588e/application-development/ai/jetson-migration/conclusion/']],
+  ['/core-3588e/application-development/jetson-migration/performance-benchmark/', ['/core-3588e/application-development/ai/jetson-migration/performance-benchmark/']],
+  ['/core-3588e/application-development/jetson-migration/software-migration/', ['/core-3588e/application-development/ai/jetson-migration/software-migration/']],
+  ['/core-3588e/application-development/jetson-migration/application-migration/', ['/core-3588e/application-development/ai/jetson-migration/application-migration/']],
+  ['/core-3588e/application-development/jetson-migration/hardware-migration/', ['/core-3588e/application-development/ai/jetson-migration/hardware-migration/']],
+  ['/core-3588e/application-development/jetson-migration/', ['/core-3588e/application-development/ai/jetson-migration/']],
+  ['/core-3588e/application-development/jetson-migration/ai-model-migration/', ['/core-3588e/application-development/ai/jetson-migration/ai-model-migration/']],
+  ['/core-3588e/application-development/jetson-migration/migration-risks/', ['/core-3588e/application-development/ai/jetson-migration/migration-risks/']],
+  ['/core-3588e/application-development/jetson-migration/executive-summary/', ['/core-3588e/application-development/ai/jetson-migration/executive-summary/']],
+  ['/core-3588e/application-development/jetson-migration/existing-jetson-platform/', ['/core-3588e/application-development/ai/jetson-migration/existing-jetson-platform/']],
+  ['/core-3588e/application-development/jetson-migration/video-pipeline/jetson/', ['/core-3588e/application-development/ai/jetson-migration/video-pipeline/jetson/']],
+  ['/core-3588e/application-development/jetson-migration/video-pipeline/', ['/core-3588e/application-development/ai/jetson-migration/video-pipeline/']],
+  ['/core-3588e/application-development/jetson-migration/video-pipeline/core3588e/mpp/', ['/core-3588e/application-development/ai/jetson-migration/video-pipeline/core3588e/mpp/']],
+  ['/core-3588e/application-development/jetson-migration/video-pipeline/core3588e/', ['/core-3588e/application-development/ai/jetson-migration/video-pipeline/core3588e/']],
+  ['/core-3588e/application-development/jetson-migration/video-pipeline/core3588e/rga/', ['/core-3588e/application-development/ai/jetson-migration/video-pipeline/core3588e/rga/']],
+  ['/core-3588e/application-development/jetson-migration/implementation/quick-start/', ['/core-3588e/application-development/ai/jetson-migration/implementation/quick-start/']],
+  ['/core-3588e/application-development/jetson-migration/implementation/', ['/core-3588e/application-development/ai/jetson-migration/implementation/']],
   ['/core-3588e/', ['/core-3588e/getting-started/introduction/']],
   ['/core-3588e/getting-started/install-os/', ['/core-3588e/getting-started/install-os/flash-image/']],
   ['/core-3588e/getting-started/connect/', [
@@ -130,7 +149,7 @@ const config: Config = {
   onBrokenLinks: 'throw',
   onBrokenAnchors: 'throw',
 
-  markdown: {format: 'mdx'},
+  markdown: {format: 'mdx', mermaid: true},
 
   i18n: {
     defaultLocale: 'en',
@@ -172,6 +191,7 @@ const config: Config = {
   ],
 
   themes: [
+    '@docusaurus/theme-mermaid',
     [
       '@easyops-cn/docusaurus-search-local',
       {

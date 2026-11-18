@@ -10,13 +10,13 @@ The NPU is programmed with Rockchip's RKNN toolkits. Models and applications mad
 
 ## What runs where
 
-Rockchip's model conversion toolkit runs on an x86-64 Linux computer. Core 3588E loads the converted model and runs it on the NPU.
+Rockchip's model conversion toolkit can run on an x86-64 Linux computer or in a separate ARM64 Docker environment on Core 3588E. The conversion environment needs a supported Python version; it is separate from the module's host Python. Core 3588E loads the converted model and runs it on the NPU.
 
-| On a computer | On Core 3588E |
+| Model conversion (x86-64 computer or ARM64 Docker on Core 3588E) | Inference on Core 3588E |
 | --- | --- |
 | Convert a model, for example from ONNX, to `.rknn` with [RKNN-Toolkit2](https://github.com/airockchip/rknn-toolkit2), for the `rk3588` target | Load the `.rknn` model with the RKNN runtime, `librknnrt`, and run inference |
 
-Example programs can be built on Core 3588E itself, so no cross-compiler is needed. The YOLOv8 example downloads a model that is already converted, so you can run it without a computer.
+Example programs can be built on Core 3588E itself, so no cross-compiler is needed. The migration Demo SDK includes converted models for on-board inference.
 
 ## On Mixtile OS
 
@@ -37,8 +37,6 @@ Mixtile OS also includes Rockchip multimedia components, such as RGA, MPP, FFmpe
 The RKNN runtime on the module and the RKNN-Toolkit2 version a model was converted with must be compatible. Mixtile OS has `librknnrt` 2.3.2. If a model you converted does not load, convert it again with RKNN-Toolkit2 2.3.2.
 :::
 
-## Start with a verified example
+## Migrating from Jetson
 
-### Run YOLOv8 on the Core 3588E NPU
-
-Build Rockchip's YOLOv8 example with the RKNN C/C++ runtime and detect objects in an image. See [Run YOLOv8 on the Core 3588E NPU](/core-3588e/application-development/ai/yolov8).
+For hardware, system and application changes, see the separate [Jetson Migration guide](/core-3588e/application-development/jetson-migration/). To try the supplied video AI examples, use its [Docker + Demo SDK quick start](/core-3588e/application-development/jetson-migration/implementation/quick-start/).

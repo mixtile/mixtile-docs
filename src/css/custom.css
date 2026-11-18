@@ -72,6 +72,34 @@
 .pin-table th:nth-child(6) { width: 8%; }
 .pin-table th:nth-child(7) { width: 22%; }
 
+/* Migration tables fill the article column without clipping columns. */
+.migration-table {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.migration-table table {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  overflow: visible;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.migration-table th,
+.migration-table td {
+  padding: 0.55rem 0.65rem;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  vertical-align: top;
+}
+
+.migration-table code {
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
 @media (max-width: 996px) {
   .pin-table {
     overflow-x: auto;
@@ -85,4 +113,177 @@
   .pin-table th {
     position: static;
   }
+}
+
+/* Consistent hierarchy and spacing for the migration guide. */
+html[class*="docs-doc-id-core-3588e/application-development/jetson-migration"] .theme-doc-markdown {
+  line-height: 1.75;
+}
+html[class*="docs-doc-id-core-3588e/application-development/jetson-migration"] .theme-doc-markdown h1 {
+  font-size: clamp(1.8rem, 3vw, 2.3rem);
+  line-height: 1.35;
+  margin-bottom: 1.25rem;
+}
+html[class*="docs-doc-id-core-3588e/application-development/jetson-migration"] .theme-doc-markdown h2 {
+  font-size: 1.5rem;
+  line-height: 1.45;
+  margin-top: 2rem;
+  margin-bottom: 0.9rem;
+}
+html[class*="docs-doc-id-core-3588e/application-development/jetson-migration"] .theme-doc-markdown h3 {
+  font-size: 1.15rem;
+  margin-top: 1.75rem;
+}
+.migration-table th {
+  font-weight: 650;
+  background: var(--ifm-color-emphasis-100);
+}
+.migration-table td {
+  line-height: 1.65;
+}
+.migration-table td strong {
+  font-weight: 650;
+}
+html[class*="docs-doc-id-core-3588e/application-development/jetson-migration"] .theme-doc-markdown video {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin: 1rem auto;
+}
+@media (max-width: 600px) {
+  .migration-table table { font-size: 0.8125rem; }
+  .migration-table th, .migration-table td { padding: 0.4rem; }
+}
+
+.migration-start {
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-left: 4px solid var(--ifm-color-primary);
+  border-radius: 6px;
+  background: var(--ifm-color-emphasis-100);
+}
+.migration-start p:last-child { margin-bottom: 0; }
+
+/* Clear entry points and lighter reading surfaces. */
+.migration-actions {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin: 1.5rem 0 2rem;
+}
+.migration-actions a {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  color: var(--ifm-font-color-base);
+  text-decoration: none;
+  transition: border-color 120ms ease;
+}
+.migration-actions a:hover, .migration-actions a:focus-visible {
+  border-color: var(--ifm-link-color);
+}
+.migration-actions strong { font-size: 1.05rem; color: var(--ifm-link-color); }
+.migration-actions span { font-size: 0.85rem; line-height: 1.6; color: var(--ifm-color-emphasis-700); }
+.migration-actions .migration-action-primary {
+  border-color: var(--ifm-link-color);
+  background: color-mix(in srgb, var(--ifm-color-primary) 8%, var(--ifm-background-color));
+}
+.migration-table {
+  border: 1px solid var(--ifm-table-border-color);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.migration-table th, .migration-table td {
+  border: 0;
+  border-bottom: 1px solid var(--ifm-table-border-color);
+  text-align: left;
+}
+.migration-table tr:last-child td { border-bottom: 0; }
+html[class*="docs-doc-id-core-3588e/application-development/jetson-migration"] .theme-doc-markdown pre {
+  font-size: 0.85rem;
+  line-height: 1.65;
+}
+html[class*="docs-doc-id-core-3588e/application-development/jetson-migration"] .theme-doc-markdown details {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  padding: 0.8rem 1rem;
+  margin: 1.25rem 0;
+}
+html[class*="docs-doc-id-core-3588e/application-development/jetson-migration"] .theme-doc-markdown summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+@media (max-width: 700px) {
+  .migration-actions { grid-template-columns: 1fr; }
+}
+
+html[class*="docs-doc-id-core-3588e/application-development/jetson-migration"] .theme-doc-markdown h1 {
+  text-wrap: balance;
+}
+
+/* Key results and conclusions share one visual language across child pages. */
+.migration-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin: 1.5rem 0 1rem;
+}
+.migration-metrics > div {
+  padding: 1rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+}
+.migration-metrics span, .migration-metrics strong, .migration-metrics small {
+  display: block;
+}
+.migration-metrics span { font-size: 0.85rem; }
+.migration-metrics strong {
+  margin: 0.5rem 0;
+  font-size: 1.65rem;
+  line-height: 1.25;
+  color: var(--ifm-link-color);
+  font-variant-numeric: tabular-nums;
+}
+.migration-metrics small {
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.78rem;
+  line-height: 1.6;
+}
+.migration-takeaway {
+  padding: 1rem 1.25rem;
+  margin: 1.25rem 0;
+  border-left: 3px solid var(--ifm-link-color);
+  border-radius: 0 8px 8px 0;
+  background: color-mix(in srgb, var(--ifm-color-primary) 7%, var(--ifm-background-color));
+}
+.migration-takeaway p:last-child { margin-bottom: 0; }
+.migration-benchmark td { font-variant-numeric: tabular-nums; }
+@media (max-width: 700px) {
+  .migration-metrics { grid-template-columns: 1fr; }
+}
+
+.migration-actions-two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+@media (max-width: 700px) {
+  .migration-actions-two { grid-template-columns: 1fr; }
+}
+
+.migration-value-table th:first-child { width: 34%; }
+.migration-value-table th:nth-child(2) { width: 14%; }
+
+/* Keep longer English use-case labels readable without widening the article. */
+.migration-video-table th:first-child { width: 38%; }
+.migration-video-table th:nth-child(2) { width: 16%; }
+.migration-video-table th:nth-child(3),
+.migration-video-table th:nth-child(4) { width: 23%; }
+@media (max-width: 600px) {
+  .migration-video-table th:first-child { width: 34%; }
+  .migration-video-table th:nth-child(2) { width: 20%; }
+  .migration-value-table th:first-child { width: 30%; }
+  .migration-value-table th:nth-child(2) { width: 20%; }
 }
