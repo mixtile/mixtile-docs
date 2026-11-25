@@ -125,6 +125,14 @@ const moved: [string, string[]][] = [
   ['/core-3588e/other-operating-systems/yocto/', ['/core-3588e/development/build-yocto/', '/core-3588e/other-os/yocto/']],
   ['/core-3588e/other-operating-systems/', ['/core-3588e/other-os/']],
   ['/core-3588e/accessories/', ['/core-3588e/accessories/active-cooler/']],
+  // The NAOS user guide replaces the previous documentation sections.
+  ['/naos/user-guide/', [
+    '/naos/resources/',
+    '/naos/getting-started/', '/naos/getting-started/prerequisites/', '/naos/getting-started/build-naos/',
+    '/naos/system-development/', '/naos/system-development/build-system/',
+    '/naos/system-development/image-generation/', '/naos/system-development/apk-packages/',
+    '/naos/system-management/', '/naos/system-management/security/', '/naos/system-management/system-updates/',
+  ]],
   // Core 3568
   ['/core-3568/introduction/', ['/core-3568/getting-started/introduction/', '/core-3568/getting-started/']],
   ['/core-3568/hardware/specifications/', [
